@@ -29,4 +29,18 @@ def countNum (b, inc):
 	
 	return b
 countNum(90, 9)
-#
+#using range
+def countNum (b):
+	i = 0
+	numbers = []
+
+	for i in range (b):
+		print "At the top i is %d" % i
+		numbers.append(i)
+		
+		i = i + 1
+		print "Numbers now: ", numbers
+		print "At the bottom i is %d" % i
+		
+	return b
+countNum(50)
